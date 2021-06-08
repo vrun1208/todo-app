@@ -1,0 +1,50 @@
+:root {
+    --bg-color: #18191A;
+  --text-color: #E4E6EB;
+  --div-color: #242526;
+  --input-color: #3A3B3C;
+}
+
+[data-theme="lightMode"] {
+    --bg-color: #F0F2F5;
+  --text-color: #18191A;
+  --div-color: #FFFFFF;
+  --input-color: #F0F2F5;  
+}
+
+body{
+    background: var(--bg-color);
+  }
+  label{
+    color: var(--text-color);
+  }
+  .form{
+    background: var(--div-color);
+    box-shadow: 0 0px 15px #2020203d;
+  }
+  button{
+    color: var(--text-color);
+    font-weight: bolder;
+  }
+  input{
+    background: var(--input-color);
+    box-shadow: inherit;
+  }
+  .list{
+    background: var(--div-color);
+    box-shadow: 0 0px 15px #2020203d;
+    list-style-position: inherit;
+  }
+  span{
+    color: var(--text-color);
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 10px;
+  }
+  i{
+    color: var(--text-color);
+    font-size: 25px;
+  }
+
+
+  
