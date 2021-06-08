@@ -6,7 +6,7 @@
   <todo></todo>
   <div class="footer">
     <p class="this">Made with ❤ by Varun</p>
-    <a href="https://github.com/vrun1208/To-do-App"  target="_blank" >
+    <a href="https://github.com/vrun1208/Todo-app"  target="_blank" >
     <i class="fab fa-github"> </i> 
      </a> 
   </div>
