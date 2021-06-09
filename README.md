@@ -23,5 +23,6 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Deployment Status
+
+## Deployment Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a386e630-dac6-47b4-9258-1e197c3e5676/deploy-status)](https://app.netlify.com/sites/simpletodoo/deploys)
