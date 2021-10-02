@@ -23,9 +23,10 @@ export default {
     },
 methods:{
     toggleTheme() {
-                this.theme = this.theme == 'lightMode' ? '' : 'lightMode'; //toggles theme value
+                // this.theme = 'lightMode'
+                this.theme = this.theme === 'lightMode' ? '' : 'lightMode'; //toggles theme value
                 document.documentElement.setAttribute('data-theme', this.theme); 
-                localStorage.setItem('theme', this.theme); // stores theme value in local storage
+                localStorage.setItem('theme', null); // stores theme value in local storage
     }
 }  
 }
